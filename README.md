@@ -1,9 +1,9 @@
 show-public-ip
 ===
-A simple web server that outputs the container's public ip address.
-
-route / shows an http site
-route /api show only the api
+A simple web server that outputs the container's public ip address as a web site.
+There are two routes available:
+- / shows an http site
+- /api show only the api
 
 # Supported tags and respective Dockerfile links
 
