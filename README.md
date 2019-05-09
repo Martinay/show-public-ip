@@ -9,10 +9,10 @@ route /api show only the api
 
 * [`latest` (latest/Dockerfile)](https://github.com/Martinay/show-public-ip/blob/master/Dockerfile)
 
-For more information about this image and its history, please see the relevant manifest file in the [`martinay/show-public-ip` GitHub repo](https://github.com/Martinay/show-public-ip).
+For more information about this image and its history, please have a look at [`martinay/show-public-ip` GitHub repo](https://github.com/Martinay/show-public-ip).
 
 # What is show-public-ip?
-[show-public-ip](https://github.com/Martinay/show-public-ip) is a simple web site to show the container's public IP address, written in python.
+[show-public-ip](https://github.com/Martinay/show-public-ip) is a simple web site to show the container's public IP address, written in javascript.
 
 # How to use this image?
 The docker image is auto built at [https://registry.hub.docker.com/u/martinay/show-public-ip/](https://registry.hub.docker.com/u/martinay/show-public-ip/).
@@ -23,7 +23,4 @@ $ docker run --rm -it -p 80:80 martinay/show-public-ip
 ```
 
 # Which image is based on?
-The image is based on python:3.6.4-alpine
-
-# What has been changed?
-Added the index.py code.
+The image is based on node:lts-alpine
