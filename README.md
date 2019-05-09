@@ -2,6 +2,9 @@ show-public-ip
 ===
 A simple web server that outputs the container's public ip address.
 
+route / shows an http site
+route /api show only the api
+
 # Supported tags and respective Dockerfile links
 
 * [`latest` (latest/Dockerfile)](https://github.com/Martinay/show-public-ip/blob/master/Dockerfile)
