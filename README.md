@@ -15,11 +15,11 @@ For more information about this image and its history, please see the relevant m
 [show-public-ip](https://github.com/Martinay/show-public-ip) is a simple web site to show the container's public IP address, written in python.
 
 # How to use this image?
-The docker image is auto built at [https://registry.hub.docker.com/u/martinay1/show-public-ip/](https://registry.hub.docker.com/u/martinay1/show-public-ip/).
+The docker image is auto built at [https://registry.hub.docker.com/u/martinay/show-public-ip/](https://registry.hub.docker.com/u/martinay/show-public-ip/).
 
 ## Local Run
 ```sh
-$ docker run --rm -it -p 80:80 martinay1/show-public-ip
+$ docker run --rm -it -p 80:80 martinay/show-public-ip
 ```
 
 # Which image is based on?

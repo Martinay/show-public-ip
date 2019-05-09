@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 LABEL Description="runs a website to show the container's public Ip"
-LABEL maintainer="martinay1"
+LABEL maintainer="martinay"
 EXPOSE 80
 WORKDIR /code
 COPY /server /code
