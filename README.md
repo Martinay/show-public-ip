@@ -22,5 +22,10 @@ The docker image is auto built at [https://registry.hub.docker.com/u/martinay/sh
 $ docker run --rm -it -p 80:80 martinay/show-public-ip
 ```
 
+with custom port:
+```sh
+$ docker run --rm -it -e PORT=1234 -p 1234:1234 martinay/show-public-ip
+```
+
 # Which image is based on?
 The image is based on node:lts-alpine
