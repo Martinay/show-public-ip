@@ -4,7 +4,7 @@ const axios = require('axios');
 const axiosInstance = axios.create({timeout: 5000});
 
 const app = express();
-const port = 80;
+const port = process.env.PORT || 80;
 
 app.get('/', async (req, res) => {
     const ip = await loadPublicIp();
